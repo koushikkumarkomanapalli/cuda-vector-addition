@@ -1,0 +1,39 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+
+# VS Code
+.vscode/
+
+# Compiled files
+*.exe
+*.obj
+*.o
+*.dll
+*.lib
+
+# CUDA generated files
+*.cubin
+*.ptx
+*.fatbin
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+Makefile
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
